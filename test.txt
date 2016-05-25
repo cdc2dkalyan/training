@@ -1,0 +1,35 @@
+
+
+x = {
+'h':"hidrogen",
+'o':"oxygen",
+'c':"carbon",
+'n':"nitrgen"
+}
+
+print x.keys()
+print x.values()
+x.update({"h":"hidrogen", "c":"carbondioxide", "s":"sulphor"})
+
+print x.keys()
+print x.values()
+print x
+
+print bool(x)
+
+
+
+x=1
+y=2
+
+if x==2:
+	print "first if"
+elif y==3:
+	print "sec if"
+else: 
+	print "else "
+
+print x,y
+
+if(1<=y<=3):
+	print "yes"
