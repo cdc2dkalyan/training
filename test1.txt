@@ -12,3 +12,4 @@ print remoteserverip
 print "-"*60
 
 print datetime.now()
+print "ASD"
