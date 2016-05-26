@@ -1,0 +1,15 @@
+import socket
+import subprocess
+import sys
+from datetime import datetime
+
+
+
+remoteserver=raw_input("Enter")
+remoteserverip=socket.gethostbyname(remoteserver)
+print "-"*60
+print remoteserverip
+print "-"*60
+
+print datetime.now()
+print "ASD"
